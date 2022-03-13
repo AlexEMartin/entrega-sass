@@ -1,0 +1,75 @@
+@import 'logo';
+@import 'footer';
+@import 'media-querie';
+
+
+@mixin whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+$estilos: (
+    color: #41295a,
+    linear: -webkit-linear-gradient(to left, #2f0743, #41295a),
+    gradiente: linear-gradient(to left, #2f0743, #41295a)
+);
+
+body {
+    background: map-get($estilos, color);
+    background: map-get($estilos, linear);
+    background: map-get($estilos, gradiente);
+ }
+    
+  h1 {
+    font-family: "Gideon Roman", cursive;
+  }
+  
+  .parrafo {
+    @extend h1;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  #exampleFormControlTextarea1 {
+    width: 65%;
+    margin: 1rem auto;
+  }
+  
+    
+  #success {
+      max-width: 100%;
+      
+  }
+  
+  #imgContacto {
+    width: 50%;
+  }
+  
+  .wp {
+    @include whatsapp; 
+  }
+  
+  .ig {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 140px;
+    right: 40px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+  }
+  
+  #infoBtn {
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,76 @@
+.logo {
+  width: 6rem;
+  margin-top: 4px; }
+
+footer {
+  text-align: center;
+  margin-top: 60px;
+  width: 100%;
+  height: 25px;
+  background-color: #37005e;
+  border: solid 1px #483d8b;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: white; }
+
+@media only screen and (max-width: 800px) {
+  .logo {
+    width: 50px; }
+  h1, .parrafo {
+    font-size: 25px; }
+  .parrafo {
+    font-size: 12px; }
+  #imgContacto {
+    width: 90%; }
+  #testImg1 {
+    width: 145px; }
+  #testImg2 {
+    width: 150px; } }
+
+body {
+  background: #41295a;
+  background: -webkit-linear-gradient(to left, #2f0743, #41295a);
+  background: linear-gradient(to left, #2f0743, #41295a); }
+
+h1, .parrafo {
+  font-family: "Gideon Roman", cursive; }
+
+.parrafo {
+  font-weight: bold;
+  font-size: 18px; }
+
+#exampleFormControlTextarea1 {
+  width: 65%;
+  margin: 1rem auto; }
+
+#success {
+  max-width: 100%; }
+
+#imgContacto {
+  width: 50%; }
+
+.wp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100; }
+
+.ig {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 140px;
+  right: 40px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 100; }
+
+#infoBtn {
+  margin-bottom: 15px; }

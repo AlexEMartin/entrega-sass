@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+
+    <!-- WOW, no tiene sentío que ha pasao -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="../css/style.css" />
+
+    <title>Hello, Bootstrap!</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <header class="w-100">
+          <div class="col-4 float-left">
+            <img
+              src="../assets/images/circle-cropped.png"
+              class="logo"
+              alt="logo"
+            />
+          </div>
+          <div class="col-8 float-right">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <a class="navbar-brand" href="../index.html">Home</a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" href="./sobre-mi.html"
+                    >Sobre Mi<span class="sr-only">(current)</span></a
+                  >
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                  <a class="nav-link" href="./testimonios.html">Testimonios</a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+
+      <main>
+        <div class="row">
+          <div class="col text-white text-center">
+            <h1 class="animate__animated animate__backInRight animate__slow">
+              Contacto
+            </h1>
+            <br />
+            <br />
+            <p class="parrafo">
+              Ingresa a mi Instagram clickeando en el icono, allí puedes acceder
+              a mi contenido y enviarme un MD. También tienes un enlace de mi
+              WhatsApp personal, estoy para ayudarte con cualquier duda.
+            </p>
+          </div>
+        </div>
+
+        <br />
+
+        <div class="row">
+          <div class="col text-center">
+            <!--IMG psicoterapia online-->
+            <img
+              src="../assets/images/psicoterapiaonline.jpg"
+              id="imgContacto"
+              class="shadow p-3 mb-5 bg-white rounded img-fluid"
+            />
+          </div>
+        </div>
+
+        <br />
+        <br />
+
+        <div class="row">
+          <div class="col">
+            <!--Formulario de contacto-->
+
+            <form class="text-white">
+              <div class="form-row">
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer01">First name</label>
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    id="validationServer01"
+                    placeholder="First name"
+                    value="Mark"
+                    required
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationServer02">Last name</label>
+                  <input
+                    type="text"
+                    class="form-control is-valid"
+                    id="validationServer02"
+                    placeholder="Last name"
+                    value="Otto"
+                    required
+                  />
+                  <div class="valid-feedback">Looks good!</div>
+                </div>
+                <div class="col-md-4 mb-3">
+                  <label for="validationServerUsername">Username</label>
+                  <div class="input-group">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroupPrepend3"
+                        >@</span
+                      >
+                    </div>
+                    <input
+                      type="text"
+                      class="form-control is-invalid"
+                      id="validationServerUsername"
+                      placeholder="Username"
+                      aria-describedby="inputGroupPrepend3"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Please choose a username.
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="col-md-6 mb-3">
+                  <label for="validationServer03">City</label>
+                  <input
+                    type="text"
+                    class="form-control is-invalid"
+                    id="validationServer03"
+                    placeholder="City"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide a valid city.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationServer04">State</label>
+                  <input
+                    type="text"
+                    class="form-control is-invalid"
+                    id="validationServer04"
+                    placeholder="State"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide a valid state.
+                  </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                  <label for="validationServer05">Zip</label>
+                  <input
+                    type="text"
+                    class="form-control is-invalid"
+                    id="validationServer05"
+                    placeholder="Zip"
+                    required
+                  />
+                  <div class="invalid-feedback">
+                    Please provide a valid zip.
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input
+                    class="form-check-input is-invalid"
+                    type="checkbox"
+                    value=""
+                    id="invalidCheck3"
+                    required
+                  />
+                  <label class="form-check-label" for="invalidCheck3">
+                    Agree to terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <button class="btn btn-success" type="submit">Submit form</button>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <aside>
+        <div class="redesSociales">
+          <a
+            href="https://www.instagram.com/tupsicoterapia.online/"
+            target="_blank"
+            ><img src="../assets/images/instagram-logo.png" class="ig"
+          /></a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5491123763974&text=Hola!%20Quisiera%20comenzar%20terapia%20:)"
+            target="_blank"
+            ><img src="../assets/images/whatsapp-logo.png" class="wp"
+          /></a>
+        </div>
+      </aside>
+
+      <footer class="indexFoo">
+        Todos los derechos reservados &copy;. Desde 2016.
+      </footer>
+    </div>
+
+    <!-- Scripts Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- WoW script -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
